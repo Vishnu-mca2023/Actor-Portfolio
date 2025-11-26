@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@keyframes pop {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-pop {
+  animation: pop 0.6s ease forwards;
+}
+:root {
+  --theme-color: #6b21a8; /* default */
+}
+
+.theme-bg {
+  background-color: var(--theme-color);
+}
+
+.theme-text {
+  color: var(--theme-color);
+}
+
+.theme-border {
+  border-color: var(--theme-color);
+}
